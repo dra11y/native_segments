@@ -1,0 +1,1 @@
+flutter pub run pigeon --input pigeons/native_segments_api.dart

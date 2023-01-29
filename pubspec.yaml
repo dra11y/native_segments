@@ -1,0 +1,31 @@
+name: native_segments
+description: Accessible native iOS and Android Segmented Control for Flutter.
+version: 1.0.0
+homepage: https://dra11y.com
+repository: https://github.com/dra11y/native_segments
+
+environment:
+  sdk: ">=2.18.0 <3.0.0"
+  flutter: ">=3.3.2"
+
+flutter:
+  plugin:
+    platforms:
+      android:
+        package: com.dra11y.flutter.native_segments
+        pluginClass: NativeSegmentsPlugin
+        dartPluginClass: NativeSegmentsAndroid
+      ios:
+        pluginClass: NativeSegmentsPlugin
+        dartPluginClass: NativeSegmentsIOS
+
+dependencies:
+  flutter:
+    sdk: flutter
+  plugin_platform_interface: ^2.1.0
+  uuid: ^3.0.6
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  pigeon: ^7.1.4

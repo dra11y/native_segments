@@ -1,3 +1,7 @@
+# 1.0.0
+
+- Initial public release.
+
 # 0.2.1
 
 - Make responsive to dynamic type size changes on Android.

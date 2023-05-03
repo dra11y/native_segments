@@ -28,4 +28,4 @@ dependencies:
 dev_dependencies:
   flutter_test:
     sdk: flutter
-  pigeon: ^7.1.4
+  pigeon: ">=7.1.4 <11.0.0"
